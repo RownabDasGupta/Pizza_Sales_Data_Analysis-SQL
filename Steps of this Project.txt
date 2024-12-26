@@ -1,0 +1,7 @@
+1. After downloading everything, just open workbench and create db name 'pizza_sales_de_project'
+2. Now import the csv files one by one.
+3. For 'pizzas.csv' and 'pizza_types.csv' we can do by the following steps becuase these two are small.
+right click on table (under the specific db) -> click on 'Table data import wizard' -> browse the specific file from the local machine -> then click on next and next with default settings to load the data.
+4. For big files:
+A) We use create table syntax 
+B) Now right click on the table name and click on 'Table Data Import' and select the file from local machine and do next next. (select exsisting table settings).
